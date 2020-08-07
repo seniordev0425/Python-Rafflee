@@ -1,0 +1,34 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+django = "*"
+requests = "*"
+django-environ = "*"
+pillow = "*"
+django-countries = "*"
+django-phonenumber-field = "*"
+phonenumbers = "*"
+djangorestframework = "*"
+djangorestframework-jwt = "*"
+django-cors-headers = "*"
+psycopg2 = "*"
+pyyaml = "*"
+reportlab = "*"
+xhtml2pdf = "*"
+twilio = "*"
+geoip2 = "*"
+facebook-sdk = "*"
+python-swiftclient = "*"
+python-keystoneclient = "*"
+python-twitter = "*"
+google-auth = "*"
+google-api-python-client = "*"
+google-auth-oauthlib = "*"
+
+[requires]
+python_version = "3.5"

@@ -1,0 +1,11 @@
+{% load i18n %}
+
+<p>
+    {% trans 'New request from' %} {{ company_name }}
+    <br/><br/>
+    {% trans 'The company can be reached at the address '%} {{ email }} {% trans 'and the phone number is: '%} {{ phone_number }}
+    <br/><br/>
+    {% trans 'Message:'%}
+    <br/><br/>
+    {{ message }}
+</p>
